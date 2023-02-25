@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.insta {
+    min-height: 390px;
+    width: 30%;
+    border: 2px solid rgb(235, 233, 231);
+    margin-top: 25px;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 430px;
+}
+
+.insta img {
+    width: 50%;
+
+}
+
+form {
+    margin-top: 40px;
+}
+
+input {
+    width: 70%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid rgb(222, 218, 218);
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: #c7c3c3;
+}
+
+button {
+    width: 70%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #4BB4F8;
+    color: rgb(241, 241, 247);
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 14px;
+}
+
+p {
+    color: #c7c3c3;
+    /* font-size: 100; */
+    padding-top: 15px;
+}
+
+.fa-fa-facebook {
+    color: chartreuse;
+}
+
+.fb {
+    display: flex;
+    padding-left: 90px;
+    padding-top: 15px;
+}
+
+.fb img {
+    width: 28px;
+    padding-left: 13px;
+}
+
+.fb a {
+    list-style: none;
+    text-decoration: none;
+}
+
+span {
+    padding-left: 10px;
+    color: #1F449C;
+}
+
+.forget {
+    padding-top: 16px;
+}
+
+.forget a {
+    text-decoration: none;
+    color: #1F449C;
+}
+
+.dont {
+    min-height: 65px;
+    width: 30%;
+    border: 2px solid rgb(235, 233, 231);
+    margin-left: 430px;
+    margin-top: 11px;
+}
+
+.dont p {
+    color: black;
+    padding-top: 17px;
+    padding-left: 70px;
+}
+
+span1 {
+    color: rgb(7, 96, 129);
+}
+
+.para {
+    margin-top: 20px;
+}
+
+p1 {
+    padding-left: 570px;
+}
+.foot{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 15px;
+   }
+   .foot img{
+    width: 40%;
+   }
